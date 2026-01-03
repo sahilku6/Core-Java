@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Allow projects
+!AboutOops/
+!BasicsOfJava/
+
+# Allow src folders only
+!AboutOops/src/
+!AboutOops/src/**
+
+!BasicsOfJava/src/
+!BasicsOfJava/src/**
+
+# Keep .gitignore
+!.gitignore
