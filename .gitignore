@@ -3,14 +3,14 @@
 
 # Allow projects
 !AboutOops/
-!BasicsOfJava/
+!JavaBasics/
 
 # Allow src folders only
 !AboutOops/src/
 !AboutOops/src/**
 
-!BasicsOfJava/src/
-!BasicsOfJava/src/**
+!JavaBasics/src/
+!JavaBasics/src/**
 
 # Keep .gitignore
 !.gitignore
