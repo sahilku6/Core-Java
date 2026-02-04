@@ -1,16 +1,47 @@
-# Ignore everything
+# ===============================
+# Ignore everything by default
+# ===============================
 *
 
-# Allow projects
+# ===============================
+# Ignore Eclipse workspace files
+# ===============================
+.metadata/
+**/.classpath
+**/.project
+**/.settings/
+
+# ===============================
+# Allow specific projects
+# ===============================
 !AboutOops/
 !JavaBasics/
+!AboutMap/
+!CollectionFramework/
+!FileHandling/
+!FunctionalProgramming/
+!WrapperClasses/
 
-# Allow src folders only
+# ===============================
+# Allow only src folders inside projects
+# ===============================
 !AboutOops/src/
 !AboutOops/src/**
 
 !JavaBasics/src/
 !JavaBasics/src/**
 
-# Keep .gitignore
-!.gitignore
+!AboutMap/src/
+!AboutMap/src/**
+
+!CollectionFramework/src/
+!CollectionFramework/src/**
+
+!FileHandling/src/
+!FileHandling/src/**
+
+!FunctionalProgramming/src/
+!FunctionalProgramming/src/**
+
+!WrapperClasses/src/
+!WrapperClasses/src/**
