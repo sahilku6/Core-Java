@@ -17,6 +17,16 @@ public class Student {
 		this.name = name;
 	}
 	
+	Address address=new Address("Phagwara","Punjab",144401);
+
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
+	
 	
 }
 
