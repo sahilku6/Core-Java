@@ -1,0 +1,8 @@
+package inheritancePractice;
+
+public class Bank {
+	double getInterestRate() {
+		return 5.5;
+	}
+
+}
